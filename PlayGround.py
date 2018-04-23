@@ -64,14 +64,9 @@ def encryptanddecrypt():
             LUT_decryption[t] += denumerize
     print decrypted_message2
 
-
-
-
-
-
     end = time.time()
     
-    print("Time", end - start)
+    print("Time:", end - start)
 
 #####Loading Animation####
 
@@ -95,5 +90,3 @@ def animate():
 #long process here
 done = 'true' #fix later
 
-
-######Cryption Table########
